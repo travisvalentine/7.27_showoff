@@ -1,20 +1,8 @@
-<!SLIDE title-slide>
-.notes first slide
+!SLIDE bullets incremental transition=fade #1
 
-# First Slide #
+# showoff #
 
-<!SLIDE bullets incremental transition=fade>
-.notes something something something something something something something something something something something something something something something dark side
-
-# Second Slide #
-
-* something
-* something else
-* a third thing
-* a fourth thing
-* a fifth thing
-
-<!SLIDE bullets>
+!SLIDE bullets
 # Third Slide
 
 * Sometimes bullet items
@@ -28,7 +16,7 @@
 Also, sometimes you just want to have plain text sitting in the middle
 of the screen. The quick brown fox jumps over the lazy dog.
 
-!SLIDE center transition=scrollUp
+!SLIDE center transition=scrollUp #2
 .notes another dark side
 
 ![octocat](octocat.png)
