@@ -425,9 +425,6 @@ module MarkdownConfig
     when 'bluecloth'
       Tilt.prefer Tilt::BlueClothTemplate, "markdown"
 
-    when 'kramdown'
-      Tilt.prefer Tilt::KramdownTemplate, "markdown"
-
     else
       Tilt.prefer Tilt::RedcarpetTemplate, "markdown"
 

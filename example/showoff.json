@@ -1,12 +1,12 @@
 {
-  "name": "Something",
-  "description": "Example Presentation",
-  "author": "Foo Bar John",
-  "templates" : {
-      "special" : "simple.tpl"
-  },
+  "name": "Logrotate",
+  "description": "Hungry Academy Lightning Talk",
+  "author": "Travis Valentine",
   "pause_msg": "Paused !!!",
   "sections": [
-    {"section":"one"}
+    {"section":"one"},
+    {"section":"two"},
+    {"section":"three"},
+    {"section":"four"}
   ]
 }
