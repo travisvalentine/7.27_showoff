@@ -1,11 +1,25 @@
-body { background: #fff url("http://www.linux-mag.com/s/i/topics/tux.jpg") no-repeat 100% 125%; font: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; text-shadow: 0px 1px 0px #ffffff; }
+body { background-color: #fff; color: #000; font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif; }
 
-.slide { background: #fff url("one/noise.png") repeat top left; }
-#preso, .slide { opacity: .98; -webkit-box-shadow: 0 0 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0 0 0px rgba(0, 0, 0, 0); box-shadow: 0 0 0px rgba(0, 0, 0, 0); }
-.slide h1 { font-size: 70px; text-transform: uppercase; margin-bottom: 30px; }
+.slide { background: #fff url("example/one/noise.png") repeat top left; }
+#preso, .slide { opacity: .98; -webkit-box-shadow: 0 0 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0 0 0px rgba(0, 0, 0, 0); box-shadow: 0 0 0px rgba(0, 0, 0, 0); height:914px;}
+.slide h1 { font-size: 70px; margin-bottom: 30px; }
 blockquote { width: 400px; text-align: left; margin: 0 auto !important; line-height: 1.5; }
 a { text-decoration: none; color: #4358CC; }
-.bullets ul { margin-left: 100px; }
+.bullets ul { margin-left: 500px; }
 .bullets ul li { list-style-type: disc; margin-left: 5px; text-align: left; }
 pre.sh_sourceCode { font-size: 25px; }
 img { width: 576px; height: 336px;}
+#footer { display:none; }
+#preso #s1 { background: #1a1a1a url("example/one/show-off.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso #s1 h1 {color: #000;font-size:110px;margin-left:-900px;margin-top:-360px;padding:0;width:auto;background-color:transparent;}
+#preso #s2 { background:url("example/one/presentations.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso h1 {color: #fff;font-size:90px;background-color:rgba(0,0,0,0.7);padding:20px;width:1300px;margin:0 auto;border-radius:10px;}
+#preso #s3 { background:url("example/one/worace.JPG") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso #s4 { background: #fff url("example/one/chacon.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso #s5 h1 {color: #000;font-size:90px;background-color:rgba(255,255,255,0.7);padding:20px;width:1300px;margin:0 auto;border-radius:10px;}
+#preso #s5 { background:url("example/one/jeopardy.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso #s6 { background:url("example/one/sinatra.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso #s7 { background:url("example/one/keynote.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+
+ z-index: 9; display: none;
+z-index: 10;display: block; 
