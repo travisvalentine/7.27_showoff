@@ -1,8 +1,7 @@
 {
-  "name": "Logrotate",
+  "name": "Showoff",
   "description": "Hungry Academy Lightning Talk",
   "author": "Travis Valentine",
-  "pause_msg": "Paused !!!",
   "sections": [
     {"section":"one"},
     {"section":"two"},

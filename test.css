@@ -5,21 +5,32 @@ body { background-color: #fff; color: #000; font-family: "Helvetica Neue", Helve
 .slide h1 { font-size: 70px; margin-bottom: 30px; }
 blockquote { width: 400px; text-align: left; margin: 0 auto !important; line-height: 1.5; }
 a { text-decoration: none; color: #4358CC; }
-.bullets ul { margin-left: 500px; }
-.bullets ul li { list-style-type: disc; margin-left: 5px; text-align: left; }
+.bullets ul { margin:0 auto;width:1300px;padding:20px;border-radius:10px;margin-top:20px;background-color:rgba(0,0,0,0.7);}
+.bullets ul li, .bullets ul li a { list-style-type: none; margin-left: 65px; text-align: left;color: #fff; }
 pre.sh_sourceCode { font-size: 25px; }
 img { width: 576px; height: 336px;}
 #footer { display:none; }
 #preso #s1 { background: #1a1a1a url("example/one/show-off.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 #preso #s1 h1 {color: #000;font-size:110px;margin-left:-900px;margin-top:-360px;padding:0;width:auto;background-color:transparent;}
-#preso #s2 { background:url("example/one/presentations.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso #s2 { background:url("example/one/ice.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso #s3 { background:url("example/one/presentations.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 #preso h1 {color: #fff;font-size:90px;background-color:rgba(0,0,0,0.7);padding:20px;width:1300px;margin:0 auto;border-radius:10px;}
-#preso #s3 { background:url("example/one/worace.JPG") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
-#preso #s4 { background: #fff url("example/one/chacon.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
-#preso #s5 h1 {color: #000;font-size:90px;background-color:rgba(255,255,255,0.7);padding:20px;width:1300px;margin:0 auto;border-radius:10px;}
-#preso #s5 { background:url("example/one/jeopardy.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
-#preso #s6 { background:url("example/one/sinatra.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
-#preso #s7 { background:url("example/one/keynote.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso #s4 { background:url("example/one/worace.JPG") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso #s5 { background: #fff url("example/one/chacon.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso #s6 h1, #preso #s2 h1 {color: #000;font-size:90px;background-color:rgba(255,255,255,0.7);padding:20px;width:1300px;margin:0 auto;border-radius:10px;}
+#preso #s6 { background:url("example/one/jeopardy.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso #s7 h1 { position:relative;margin-top:422px;z-index:100;}
+#preso #s7 img { height: 918px;width:1336px;z-index:-100;margin-top:-570px;}
+#preso #s8 { background:url("example/one/sinatra.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso #s9 { background:url("example/one/keynote.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso #s10 { background: #000 url("example/one/features.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso #s11 { background: #000 url("example/one/houdini.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso #s12 { background: #000 url("example/one/serve.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso #s13 { background: #000 url("example/one/jackson.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso #s14 { background: #000 url("example/one/js.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso #s15 { background: #000 url("example/one/css.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso #s16 { background: #000 url("example/one/heroku.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso #s17 { background: #000 url("example/one/hug.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#preso #s18 { background: #000 url("example/one/oldreadingroom.jpg") no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 
- z-index: 9; display: none;
-z-index: 10;display: block; 
+#preso #s15 h1:hover {-webkit-transform:rotate(180deg);}
